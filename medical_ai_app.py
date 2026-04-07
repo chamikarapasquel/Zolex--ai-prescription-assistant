@@ -1,17 +1,6 @@
 """
 🏥 Zolex AI Pipeline — Streamlit App
-Loads the exact models from the notebook end-to-end.
 
-Place this file in the SAME folder as:
-  - medical_spellcheck_final/          (T5-small spell corrector)
-  - intent_classifier_medical_safe.pkl
-  - intent_classifier_metadata.json
-  - zolex_disease_model_v2/            (DistilBERT disease predictor)
-  - db_drug_interactions.csv
-
-Run:
-    pip install streamlit requests pandas transformers torch joblib
-    streamlit run medical_ai_app.py
 """
 
 import os, sys, re, json, string, unicodedata, time, warnings
